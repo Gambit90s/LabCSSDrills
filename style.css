@@ -5,20 +5,36 @@ body {
     text-decoration: none;
 }
 
-.readme-wrapper {
+a {
     text-decoration: none;
     color: goldenrod;
 
     
 }
 
-.readme-wrapper :hover {
-    font-size: bold;
+a:hover {
+    font-weight: bold;
+    color: green;
+    cursor: pointer;
 }
-.box-1, .box-2, .box-3, .box-4 {
+.boxes {
     display: inline-block;
     margin: 2em 1em 2em 1em;
     padding: 1em 1em 1em 1em;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 20%;
+    display: block;
+    width: 20%;
+}
+#box1 {
+    background-color: lightcoral;
+}
+#box2 {
+    background-color: lightseagreen;
+}
+#box3 {
+    background-color: lightskyblue;
+}
+#box4 {
+    background-color: lightyellow;
 }
